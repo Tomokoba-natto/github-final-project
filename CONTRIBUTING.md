@@ -1,58 +1,123 @@
 All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
 
-[![Build Status](https://badge.buildkite.com/ab1152b6a1f6a61d3ea4ec5b3eece8d4c2b830998459c75352.svg?branch=main)](https://buildkite.com/rails/rails)
-[![Code Triage Badge](https://www.codetriage.com/rails/rails/badges/users.svg)](https://www.codetriage.com/rails/rails)
-[![Version](https://img.shields.io/gem/v/rails)](https://rubygems.org/gems/rails)
-[![License](https://img.shields.io/github/license/rails/rails)](https://github.com/rails/rails)
+# Contributing
 
-## How to contribute to Ruby on Rails
+When contributing a major change to this repository, please first discuss the
+change you wish to make via an [issue](contributing/ISSUES.md) or via
+[Slack in the #racial-justice-legit-info 
+channel](https://callforcode.slack.com/archives/C01CRAN53CM) in the [Call for
+Code Slack workspace](https://callforcode.org/slack). Minor issues can simply
+be addressed by sending by a pull request.
 
-#### **Did you find a bug?**
+All [pull requests](contributing/PULL-REQUESTS.md) will require you to ensure
+the change is certified via the [Developer Certificate of Origin 
+(DCO)](https://github.com/apps/dco/). The DCO is a lightweight way for 
+contributors to certify that they wrote or otherwise have the right to submit
+the code they are contributing to the project.
 
-* **Do not open up a GitHub issue if the bug is a security vulnerability
-  in Rails**, and instead to refer to our [security policy](https://rubyonrails.org/security).
+Please note we have a [Code of Conduct](#code-of-conduct), please follow it in
+all your interactions with the project and its community.
 
-* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/rails/rails/issues).
+## Coding Standards
 
-* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/rails/rails/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
+This project adheres to the PEP 8 Python Coding Style Guidelines, Django naming
+conventions, and other standards.  See [STYLE.md](docs/STYLE.md) for details.
 
-* If possible, use the relevant bug report templates to create the issue. Simply copy the content of the appropriate template into a .rb file, make the necessary changes to demonstrate the issue, and **paste the content into the issue description**:
-  * [**Active Record** (models, database) issues](https://github.com/rails/rails/blob/main/guides/bug_report_templates/active_record.rb)
-  * [**Action Pack** (controllers, routing) issues](https://github.com/rails/rails/blob/main/guides/bug_report_templates/action_controller.rb)
-  * [**Generic template** for other issues](https://github.com/rails/rails/blob/main/guides/bug_report_templates/generic.rb)
+## Programming Languages
 
-* For more detailed information on submitting a bug report and creating an issue, visit our [reporting guidelines](https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html#reporting-an-issue).
+Scripts are written for "bash" shell.
+Python code is written at the [Python 3.6](https://docs.python.org/3.6/) level.
 
-#### **Did you write a patch that fixes a bug?**
+## Managing Dependencies
 
-* Open a new GitHub pull request with the patch.
+Install or uninstall all dependencies using these commands while you are
+in the pipenv shell:
 
-* Ensure the PR description clearly describes the problem and solution. Include the relevant issue number if applicable.
+```console
+(cfc) $ pipenv install <program>"
+(cfc) $ pipenv lock -r > requirements.txt"
+```
 
-* Before submitting, please read the [Contributing to Ruby on Rails](https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html) guide to know more about coding conventions and benchmarks.
+The pipfile, pipfile.lock and requirements.txt will be part of the git
+commit/pull-request to be reviewed.
 
-#### **Did you fix whitespace, format code, or make a purely cosmetic patch?**
 
-Changes that are cosmetic in nature and do not add anything substantial to the stability, functionality, or testability of Rails will generally not be accepted (read more about [our rationales behind this decision](https://github.com/rails/rails/pull/13771#issuecomment-32746700)).
+## Pull Request Process
 
-#### **Do you intend to add a new feature or change an existing one?**
+1. Fork the repository.
+2. Commit your changes to your fork.
+3. Submit a pull request. _Don't forget to add yourself in the [Authors](Authors) file!_
+4. Handle any feedback before the request is merged.
+5. Accept our sincere Thank You!
 
-* Suggest your change in the [rubyonrails-core mailing list](https://discuss.rubyonrails.org/c/rubyonrails-core) and start writing code.
+## Code of Conduct
 
-* Do not open an issue on GitHub until you have collected positive feedback about the change. GitHub issues are primarily intended for bug reports and fixes.
+### Our Pledge
 
-* We generally reject changes to Active Support core extensions. Those change should be proposed in the [Ruby issue tracker instead](https://bugs.ruby-lang.org/issues), as we don't want to conflict with future versions of Ruby.
+In the interest of fostering an open and welcoming environment, we as
+contributors and maintainers pledge to making participation in our project and
+our community a harassment-free experience for everyone, regardless of age, 
+body size, disability, ethnicity, gender identity and expression, level of 
+experience, nationality, personal appearance, race, religion, or sexual 
+identity and orientation.
 
-#### **Do you have questions about the source code?**
+### Our Standards
 
-* Ask any question about how to use Ruby on Rails in the [rubyonrails-talk mailing list](https://discuss.rubyonrails.org/c/rubyonrails-talk).
+Examples of behavior that contributes to creating a positive environment
+include:
 
-#### **Do you want to contribute to the Rails documentation?**
+* Using welcoming and inclusive language
+* Being respectful of differing viewpoints and experiences
+* Gracefully accepting constructive criticism
+* Focusing on what is best for the community
+* Showing empathy towards other community members
 
-* Please read [Contributing to the Rails Documentation](https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html#contributing-to-the-rails-documentation).
+Examples of unacceptable behavior by participants include:
 
-Ruby on Rails is a volunteer effort. We encourage you to pitch in and join [the team](https://contributors.rubyonrails.org)!
+* The use of sexualized language or imagery and unwelcome sexual attention or
+advances
+* Trolling, insulting/derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or electronic
+  address, without explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
 
-Thanks! :heart: :heart: :heart:
+### Our Responsibilities
 
-Rails Team
+Project maintainers are responsible for clarifying the standards of acceptable
+behavior and are expected to take appropriate and fair corrective action in
+response to any instances of unacceptable behavior.
+
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned to this Code of Conduct, or to ban temporarily or
+permanently any contributor for other behaviors that they deem inappropriate,
+threatening, offensive, or harmful.
+
+### Scope
+
+This Code of Conduct applies both within project spaces and in public spaces
+when an individual is representing the project or its community. Examples of
+representing a project or community include using an official project e-mail
+address, posting via an official social media account, or acting as an appointed
+representative at an online or offline event. Representation of a project may be
+further defined and clarified by project maintainers.
+
+### Enforcement
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported by contacting the project team on [Slack in the #racial-justice-legit-info channel](https://callforcode.slack.com/archives/C01CRAN53CM). 
+
+All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.Further details of specific enforcement policies may be posted separately.
+
+Project maintainers who do not follow or enforce the Code of Conduct in good
+faith may face temporary or permanent repercussions as determined by other
+members of the project's leadership.
+
+### Attribution
+
+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at [http://contributor-covenant.org/version/1/4][version]
+
+[homepage]: http://contributor-covenant.org
+[version]: http://contributor-covenant.org/version/1/4/
