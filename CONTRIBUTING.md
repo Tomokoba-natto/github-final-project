@@ -1,123 +1,80 @@
 All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
 
-# Contributing
+# Contributor Covenant Code of Conduct
 
-When contributing a major change to this repository, please first discuss the
-change you wish to make via an [issue](contributing/ISSUES.md) or via
-[Slack in the #racial-justice-legit-info 
-channel](https://callforcode.slack.com/archives/C01CRAN53CM) in the [Call for
-Code Slack workspace](https://callforcode.org/slack). Minor issues can simply
-be addressed by sending by a pull request.
+## Our Pledge
 
-All [pull requests](contributing/PULL-REQUESTS.md) will require you to ensure
-the change is certified via the [Developer Certificate of Origin 
-(DCO)](https://github.com/apps/dco/). The DCO is a lightweight way for 
-contributors to certify that they wrote or otherwise have the right to submit
-the code they are contributing to the project.
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-Please note we have a [Code of Conduct](#code-of-conduct), please follow it in
-all your interactions with the project and its community.
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
-## Coding Standards
+## Our Standards
 
-This project adheres to the PEP 8 Python Coding Style Guidelines, Django naming
-conventions, and other standards.  See [STYLE.md](docs/STYLE.md) for details.
+Examples of behavior that contributes to a positive environment for our community include:
 
-## Programming Languages
+- Demonstrating empathy and kindness toward other people
+- Being respectful of differing opinions, viewpoints, and experiences
+- Giving and gracefully accepting constructive feedback
+- Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
+- Focusing on what is best not just for us as individuals, but for the overall community
 
-Scripts are written for "bash" shell.
-Python code is written at the [Python 3.6](https://docs.python.org/3.6/) level.
+Examples of unacceptable behavior include:
 
-## Managing Dependencies
+- The use of sexualized language or imagery, and sexual attention or advances of any kind
+- Trolling, insulting or derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others’ private information, such as a physical or email address, without their explicit permission
+- Other conduct which could reasonably be considered inappropriate in a professional setting
 
-Install or uninstall all dependencies using these commands while you are
-in the pipenv shell:
+## Enforcement Responsibilities
 
-```console
-(cfc) $ pipenv install <program>"
-(cfc) $ pipenv lock -r > requirements.txt"
-```
+Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
 
-The pipfile, pipfile.lock and requirements.txt will be part of the git
-commit/pull-request to be reviewed.
+## Scope
 
+This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
 
-## Pull Request Process
+## Enforcement
 
-1. Fork the repository.
-2. Commit your changes to your fork.
-3. Submit a pull request. _Don't forget to add yourself in the [Authors](Authors) file!_
-4. Handle any feedback before the request is merged.
-5. Accept our sincere Thank You!
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [INSERT CONTACT METHOD]. All complaints will be reviewed and investigated promptly and fairly.
 
-## Code of Conduct
+All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
-### Our Pledge
+## Enforcement Guidelines
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, 
-body size, disability, ethnicity, gender identity and expression, level of 
-experience, nationality, personal appearance, race, religion, or sexual 
-identity and orientation.
+Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
 
-### Our Standards
+### 1. Correction
 
-Examples of behavior that contributes to creating a positive environment
-include:
+**Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
 
-Examples of unacceptable behavior by participants include:
+### 2. Warning
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+**Community Impact**: A violation through a single incident or series of actions.
 
-### Our Responsibilities
+**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+### 3. Temporary Ban
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+**Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.
 
-### Scope
+**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+### 4. Permanent Ban
 
-### Enforcement
+**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team on [Slack in the #racial-justice-legit-info channel](https://callforcode.slack.com/archives/C01CRAN53CM). 
+**Consequence**: A permanent ban from any sort of public interaction within the community.
 
-All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.Further details of specific enforcement policies may be posted separately.
+## Attribution
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.
 
-### Attribution
+Community Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at [http://contributor-covenant.org/version/1/4][version]
+For answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.
 
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
+[homepage]: https://www.contributor-covenant.org
+
